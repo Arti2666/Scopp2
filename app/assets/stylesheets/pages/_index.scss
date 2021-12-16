@@ -1,2 +1,80 @@
 // Import page-specific CSS files here.
 @import "home";
+
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  form {
+    display: flex;
+    width: 50%;
+  };
+  .btn-primary {
+    background-color: rgb(63, 147, 226);
+  }
+}
+
+.card-group {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card-orga {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  color: rgb(177, 215, 248);
+  padding-bottom: 50px;
+  .card {
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    background-color: rgb(21, 48, 66);
+
+  }
+}
+
+.P-title {
+  color: rgb(248, 248, 248);
+  word-break: break-word;
+}
+
+#Owner {
+  margin-bottom: 5%;
+}
+
+.go {
+  margin: 1%;
+  border-radius: 50px;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+}
+
+.A {
+  width: 25%;
+  text-align: center;
+}
+
+.btn-create {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(63, 147, 226);
+  color: white;
+  margin-bottom: 10px;
+  height: 50px;
+  text-align: center;
+  padding: 1%;
+  border-radius: 50px;
+  width: 20%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,40 @@
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  h1, .tags {
+    align-content: center;
+    text-align: center;
+  };
+  .description {
+    margin-top: 15px;
+    text-align: center;
+  };
+  .creator {
+   font-size: 0.8em;
+   text-align: center;
+  }
+  .participants {
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    h3 {
+      width:100%;
+    }
+  }
+}
+
+.cont-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 15%;
+  .btn-success {
+    text-decoration: none;
+    a {
+    color: white;
+    };
+  };
+}

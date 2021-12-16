@@ -1,0 +1,14 @@
+<div class="dflex align-center container">
+  <h1>Create a new project</h1>
+  <%= simple_form_for(@project) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :description %>
+    <%= f.input :tag1, label: "Tag 1" %><%= f.input :tag2, label: "Tag 2" %><%= f.input :tag3, label: "Tag 3" %>
+  <div class="submit">
+  <%= f.submit %>
+  </div>
+  <% end %>
+
+
+
+  </div>

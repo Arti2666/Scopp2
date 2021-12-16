@@ -14,7 +14,7 @@
       username: Faker::Name.name,
       email: Faker::Internet.email,
       password: "password",
-      profession: Faker::Hobby.activity,
+      profession: Faker::Hobby.activity
     )
   end
   puts "Users done, starting projects"
@@ -24,10 +24,10 @@
         id: id,
         title: Faker::Lorem.sentence,
         description: Faker::Lorem.sentences,
-        users_id: rand(1..5),
+        user_id: rand(1..5),
         tag1: Faker::Hobby.activity,
-	tag2: Faker::Hobby.activity,
-	tag3: Faker::Hobby.activity,
+	      tag2: Faker::Hobby.activity,
+	      tag3: Faker::Hobby.activity,
       )
   end
   puts "Projects done"
